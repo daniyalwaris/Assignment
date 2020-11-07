@@ -7,9 +7,9 @@ class CampaignPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputUsername () { return $('#username') }
-    get inputPassword () { return $('#password') }
-    get btnSubmit () { return $('button[type="submit"]') }
+    get CampaignHeader () { return $('h1') }
+    get CampaignHeaderSubSection () { return $('//*[@id="root"]/div/div/main/div[1]/section/p') }
+
 
     /**
      * a method to encapsule automation code to interact with the page
