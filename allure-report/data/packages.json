@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Campaign Page",
+    "children" : [ {
+      "name" : "Should validate the Navigation Page",
+      "uid" : "6434c19581eb3fe0",
+      "parentUid" : "50f59f2175f6a0e9a8cc5f93e955c383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604772345128,
+        "stop" : 1604772345170,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Get the Header Section Text",
+      "uid" : "84bca26d75cde6d",
+      "parentUid" : "50f59f2175f6a0e9a8cc5f93e955c383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604772345170,
+        "stop" : 1604772345402,
+        "duration" : 232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.183" ]
+    } ],
+    "uid" : "50f59f2175f6a0e9a8cc5f93e955c383"
+  } ]
+}

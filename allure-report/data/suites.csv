@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 07 19:05:45 CET 2020","Sat Nov 07 19:05:45 CET 2020","42","","Campaign Page","","Campaign Page","Should validate the Navigation Page","Should validate the Navigation Page",""
+"passed","Sat Nov 07 19:05:45 CET 2020","Sat Nov 07 19:05:45 CET 2020","232","","Campaign Page","","Campaign Page","Get the Header Section Text","Get the Header Section Text",""

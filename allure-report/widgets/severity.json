@@ -1,0 +1,21 @@
+[ {
+  "uid" : "84bca26d75cde6d",
+  "name" : "Get the Header Section Text",
+  "time" : {
+    "start" : 1604772345170,
+    "stop" : 1604772345402,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6434c19581eb3fe0",
+  "name" : "Should validate the Navigation Page",
+  "time" : {
+    "start" : 1604772345128,
+    "stop" : 1604772345170,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
