@@ -1,14 +1,12 @@
-const LoginPage = require('../pageobjects/login.page');
-const SecurePage = require('../pageobjects/secure.page');
+const CampaignPage = require('../pageobjects/Campaign.page');
+
 
 describe('My Login application', () => {
     it('should login with valid credentials', () => {
-        LoginPage.open();
+        CampaignPage.open();
+        expect(browser).toHaveTitle('A million more | Volvo Cars');
 
-        LoginPage.login('tomsmith', 'SuperSecretPassword!');
-        expect(SecurePage.flashAlert).toBeExisting();
-        expect(SecurePage.flashAlert).toHaveTextContaining(
-            'You logged into a secure area!');
+
     });
 });
 

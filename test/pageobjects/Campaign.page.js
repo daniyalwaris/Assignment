@@ -3,7 +3,7 @@ const Page = require('./page');
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class LoginPage extends Page {
+class CampaignPage extends Page {
     /**
      * define selectors using getter methods
      */
@@ -25,8 +25,8 @@ class LoginPage extends Page {
      * overwrite specifc options to adapt it to page object
      */
     open () {
-        return super.open('login');
+        return super.open('car-safety/a-million-more');
     }
 }
 
-module.exports = new LoginPage();
+module.exports = new CampaignPage();
