@@ -1,12 +1,12 @@
 {
-  "uid" : "84bca26d75cde6d",
-  "name" : "Get the Header Section Text",
-  "fullName" : "Campaign Page.Get the Header Section Text",
-  "historyId" : "44437e2093d8348e01d328eb3c0f867",
+  "uid" : "35b4a7e5f1e0859d",
+  "name" : "Should validate the Navigation Page",
+  "fullName" : "Campaign Page.Should validate the Navigation Page",
+  "historyId" : "ce848b34e2d5ae1e6a55698727ae8a0b",
   "time" : {
-    "start" : 1604772345170,
-    "stop" : 1604772345402,
-    "duration" : 232
+    "start" : 1604790943722,
+    "stop" : 1604790943846,
+    "duration" : 124
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "Campaign Page"
   }, {
     "name" : "testMethod",
-    "value" : "Get the Header Section Text"
+    "value" : "Should validate the Navigation Page"
   }, {
     "name" : "package",
     "value" : "Campaign Page"
@@ -42,7 +42,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-86.0.4240.183"
+    "value" : "Chrome-86.0.4240.183"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "84bca26d75cde6d.json",
-  "parameterValues" : [ "chrome-86.0.4240.183" ]
+  "source" : "35b4a7e5f1e0859d.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
 }

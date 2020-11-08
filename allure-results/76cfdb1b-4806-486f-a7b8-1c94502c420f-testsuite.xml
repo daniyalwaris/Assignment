@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604772345128' stop='1604772345403'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604776298550' stop='1604776298700'>
     <name>Campaign Page</name>
     <title>Campaign Page</title>
     <test-cases>
-        <test-case start='1604772345128' status='passed' stop='1604772345170'>
+        <test-case start='1604776298550' status='passed' stop='1604776298594'>
             <name>Should validate the Navigation Page</name>
             <title>Should validate the Navigation Page</title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1604772345170' status='passed' stop='1604772345402'>
+        <test-case start='1604776298594' status='passed' stop='1604776298699'>
             <name>Get the Header Section Text</name>
             <title>Get the Header Section Text</title>
             <labels>

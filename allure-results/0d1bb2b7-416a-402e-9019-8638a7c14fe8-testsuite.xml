@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604775775331' stop='1604775786952'>
+    <name>Campaign Page</name>
+    <title>Campaign Page</title>
+    <test-cases>
+        <test-case start='1604775775332' status='broken' stop='1604775786864'>
+            <name>Should validate the Navigation Page</name>
+            <title>Should validate the Navigation Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f822ce27-3161-4a4f-a050-3cb626ad225d-attachment.png' type='image/png' size='1176986'/>
+            </attachments>
+            <failure>
+                <message>Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '[{"message": [Function message], "pass": false}]' was returned</message>
+                <stack-trace>Error: Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '[{"message": [Function message], "pass": false}]' was returned
+                    at _validateResult (D:\Volvo\Assignment\node_modules\expect\build\index.js:389:11)
+                    at processResult (D:\Volvo\Assignment\node_modules\expect\build\index.js:283:7)
+                    at Object.throwingMatcher [as toHaveTitle] (D:\Volvo\Assignment\node_modules\expect\build\index.js:358:16)
+                    at Context.&lt;anonymous> (D:\Volvo\Assignment\test\specs\example.e2e.js:13:25)
+                    at Context.executeSync (D:\Volvo\Assignment\node_modules\@wdio\sync\build\index.js:25:22)
+                    at D:\Volvo\Assignment\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604775786865' status='passed' stop='1604775786950'>
+            <name>Get the Header Section Text</name>
+            <title>Get the Header Section Text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

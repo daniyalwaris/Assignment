@@ -1,0 +1,100 @@
+{
+  "uid" : "99a44d690402fa97",
+  "name" : "should validare the button is clickable",
+  "fullName" : "Campaign Page.should validare the button is clickable",
+  "historyId" : "39a3df47f21027d89184c0dc440f65ba",
+  "time" : {
+    "start" : 1604778583131,
+    "stop" : 1604778583504,
+    "duration" : 373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'isClickable' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'isClickable' of undefined\n                    at Context.<anonymous> (D:\\Volvo\\Assignment\\test\\specs\\example.e2e.js:19:53)\n                    at Context.executeSync (D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'isClickable' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'isClickable' of undefined\n                    at Context.<anonymous> (D:\\Volvo\\Assignment\\test\\specs\\example.e2e.js:19:53)\n                    at Context.executeSync (D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "109445c91962e703",
+      "name" : "Screenshot",
+      "source" : "109445c91962e703.png",
+      "type" : "image/png",
+      "size" : 79124
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should validare the button is clickable"
+  }, {
+    "name" : "package",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a3901cc9c0d820f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isClickable' of undefined",
+      "time" : {
+        "start" : 1604778481814,
+        "stop" : 1604778482195,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "80076a80cdab94",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isClickable' of undefined",
+      "time" : {
+        "start" : 1604778212770,
+        "stop" : 1604778213162,
+        "duration" : 392
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99a44d690402fa97.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}

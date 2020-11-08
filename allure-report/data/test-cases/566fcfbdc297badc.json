@@ -1,0 +1,58 @@
+{
+  "uid" : "566fcfbdc297badc",
+  "name" : "Get the Header Section Text",
+  "fullName" : "Campaign Page.Get the Header Section Text",
+  "historyId" : "5eb25eb85ea4dd3c298590528e363e40",
+  "time" : {
+    "start" : 1604775786865,
+    "stop" : 1604775786950,
+    "duration" : 85
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the Header Section Text"
+  }, {
+    "name" : "package",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "566fcfbdc297badc.json",
+  "parameterValues" : [ "true" ]
+}

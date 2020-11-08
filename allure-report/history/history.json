@@ -1,4 +1,23 @@
 {
+  "753cc84b143d56eedc0f359f8a80b75e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc29c9edbd69ea95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604790946645,
+        "stop" : 1604790946725,
+        "duration" : 80
+      }
+    } ]
+  },
   "338f5385b592e93442181330164b8667" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +28,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6434c19581eb3fe0",
+      "uid" : "c074f5d381043af",
       "status" : "passed",
       "time" : {
-        "start" : 1604772345128,
-        "stop" : 1604772345170,
-        "duration" : 42
+        "start" : 1604778583053,
+        "stop" : 1604778583130,
+        "duration" : 77
+      }
+    } ]
+  },
+  "2259ace98fb1e3403d3c38a929ec62a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ff34edad4d395bf",
+      "status" : "broken",
+      "statusDetails" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '[{\"message\": [Function message], \"pass\": false}]' was returned",
+      "time" : {
+        "start" : 1604775775332,
+        "stop" : 1604775786864,
+        "duration" : 11532
+      }
+    } ]
+  },
+  "ce848b34e2d5ae1e6a55698727ae8a0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35b4a7e5f1e0859d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604790943722,
+        "stop" : 1604790943846,
+        "duration" : 124
       }
     } ]
   },
@@ -28,12 +86,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84bca26d75cde6d",
+      "uid" : "932266e49c5221ff",
       "status" : "passed",
       "time" : {
-        "start" : 1604772345170,
-        "stop" : 1604772345402,
-        "duration" : 232
+        "start" : 1604778583509,
+        "stop" : 1604778583613,
+        "duration" : 104
+      }
+    } ]
+  },
+  "5eb25eb85ea4dd3c298590528e363e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "566fcfbdc297badc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604775786865,
+        "stop" : 1604775786950,
+        "duration" : 85
+      }
+    } ]
+  },
+  "957e12b710fc64b4b9ea231d088d22dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c9409a46f99e275",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isClickable' of undefined",
+      "time" : {
+        "start" : 1604790943846,
+        "stop" : 1604790946645,
+        "duration" : 2799
+      }
+    } ]
+  },
+  "39a3df47f21027d89184c0dc440f65ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99a44d690402fa97",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isClickable' of undefined",
+      "time" : {
+        "start" : 1604778583131,
+        "stop" : 1604778583504,
+        "duration" : 373
       }
     } ]
   }

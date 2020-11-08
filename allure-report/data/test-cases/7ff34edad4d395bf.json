@@ -1,0 +1,82 @@
+{
+  "uid" : "7ff34edad4d395bf",
+  "name" : "Should validate the Navigation Page",
+  "fullName" : "Campaign Page.Should validate the Navigation Page",
+  "historyId" : "2259ace98fb1e3403d3c38a929ec62a6",
+  "time" : {
+    "start" : 1604775775332,
+    "stop" : 1604775786864,
+    "duration" : 11532
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '[{\"message\": [Function message], \"pass\": false}]' was returned",
+  "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '[{\"message\": [Function message], \"pass\": false}]' was returned\n                    at _validateResult (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:389:11)\n                    at processResult (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:283:7)\n                    at Object.throwingMatcher [as toHaveTitle] (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:358:16)\n                    at Context.<anonymous> (D:\\Volvo\\Assignment\\test\\specs\\example.e2e.js:13:25)\n                    at Context.executeSync (D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '[{\"message\": [Function message], \"pass\": false}]' was returned",
+    "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '[{\"message\": [Function message], \"pass\": false}]' was returned\n                    at _validateResult (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:389:11)\n                    at processResult (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:283:7)\n                    at Object.throwingMatcher [as toHaveTitle] (D:\\Volvo\\Assignment\\node_modules\\expect\\build\\index.js:358:16)\n                    at Context.<anonymous> (D:\\Volvo\\Assignment\\test\\specs\\example.e2e.js:13:25)\n                    at Context.executeSync (D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Volvo\\Assignment\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf652c4ccef5cd",
+      "name" : "Screenshot",
+      "source" : "cf652c4ccef5cd.png",
+      "type" : "image/png",
+      "size" : 1176986
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should validate the Navigation Page"
+  }, {
+    "name" : "package",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ff34edad4d395bf.json",
+  "parameterValues" : [ "true" ]
+}

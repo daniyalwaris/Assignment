@@ -5,30 +5,108 @@
     "name" : "Campaign Page",
     "children" : [ {
       "name" : "Should validate the Navigation Page",
-      "uid" : "6434c19581eb3fe0",
+      "uid" : "7ff34edad4d395bf",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604775775332,
+        "stop" : 1604775786864,
+        "duration" : 11532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "Get the Header Section Text",
+      "uid" : "566fcfbdc297badc",
       "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
       "status" : "passed",
       "time" : {
-        "start" : 1604772345128,
-        "stop" : 1604772345170,
-        "duration" : 42
+        "start" : 1604775786865,
+        "stop" : 1604775786950,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "Should validate the Navigation Page",
+      "uid" : "c074f5d381043af",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604778583053,
+        "stop" : 1604778583130,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.183" ]
+    }, {
+      "name" : "should validare the button is clickable",
+      "uid" : "99a44d690402fa97",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604778583131,
+        "stop" : 1604778583504,
+        "duration" : 373
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-86.0.4240.183" ]
     }, {
       "name" : "Get the Header Section Text",
-      "uid" : "84bca26d75cde6d",
+      "uid" : "932266e49c5221ff",
       "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
       "status" : "passed",
       "time" : {
-        "start" : 1604772345170,
-        "stop" : 1604772345402,
-        "duration" : 232
+        "start" : 1604778583509,
+        "stop" : 1604778583613,
+        "duration" : 104
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Should validate the Navigation Page",
+      "uid" : "35b4a7e5f1e0859d",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604790943722,
+        "stop" : 1604790943846,
+        "duration" : 124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "should validare the button is clickable",
+      "uid" : "4c9409a46f99e275",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604790943846,
+        "stop" : 1604790946645,
+        "duration" : 2799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Get the Header Section Text",
+      "uid" : "bc29c9edbd69ea95",
+      "parentUid" : "a2cf54ce8382bb815239792aa8a871bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604790946645,
+        "stop" : 1604790946725,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
     } ],
     "uid" : "a2cf54ce8382bb815239792aa8a871bb"
   } ]

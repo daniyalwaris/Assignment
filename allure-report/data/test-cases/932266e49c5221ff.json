@@ -1,0 +1,90 @@
+{
+  "uid" : "932266e49c5221ff",
+  "name" : "Get the Header Section Text",
+  "fullName" : "Campaign Page.Get the Header Section Text",
+  "historyId" : "44437e2093d8348e01d328eb3c0f867",
+  "time" : {
+    "start" : 1604778583509,
+    "stop" : 1604778583613,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the Header Section Text"
+  }, {
+    "name" : "package",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4810142dd627fa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604778482196,
+        "stop" : 1604778482319,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "5a4248abfd516599",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604778213162,
+        "stop" : 1604778213296,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "8b027c4e2e11ad12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604776298594,
+        "stop" : 1604776298699,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "ffcdc747a9f8e9de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604775862748,
+        "stop" : 1604775862987,
+        "duration" : 239
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "932266e49c5221ff.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}

@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604778583052' stop='1604778583613'>
+    <name>Campaign Page</name>
+    <title>Campaign Page</title>
+    <test-cases>
+        <test-case start='1604778583053' status='passed' stop='1604778583130'>
+            <name>Should validate the Navigation Page</name>
+            <title>Should validate the Navigation Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604778583131' status='broken' stop='1604778583504'>
+            <name>should validare the button is clickable</name>
+            <title>should validare the button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d6126ffd-22da-4fa3-b569-ecbeadc3bb80-attachment.png' type='image/png' size='79124'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'isClickable' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isClickable' of undefined
+                    at Context.&lt;anonymous> (D:\Volvo\Assignment\test\specs\example.e2e.js:19:53)
+                    at Context.executeSync (D:\Volvo\Assignment\node_modules\@wdio\sync\build\index.js:25:22)
+                    at D:\Volvo\Assignment\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604778583509' status='passed' stop='1604778583613'>
+            <name>Get the Header Section Text</name>
+            <title>Get the Header Section Text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

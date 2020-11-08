@@ -1,0 +1,90 @@
+{
+  "uid" : "c074f5d381043af",
+  "name" : "Should validate the Navigation Page",
+  "fullName" : "Campaign Page.Should validate the Navigation Page",
+  "historyId" : "338f5385b592e93442181330164b8667",
+  "time" : {
+    "start" : 1604778583053,
+    "stop" : 1604778583130,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should validate the Navigation Page"
+  }, {
+    "name" : "package",
+    "value" : "Campaign Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef5d0c57c2cfa933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604778481777,
+        "stop" : 1604778481814,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "3d0a4f0de5de0d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604778212729,
+        "stop" : 1604778212770,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "db8d15f1ef628718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604776298550,
+        "stop" : 1604776298594,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "1a2d0ed3753bff5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604775862696,
+        "stop" : 1604775862747,
+        "duration" : 51
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c074f5d381043af.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}
