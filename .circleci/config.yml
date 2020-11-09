@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node15
+      - image: circleci/node@3.0.0
 
     working_directory: ~/project
 
