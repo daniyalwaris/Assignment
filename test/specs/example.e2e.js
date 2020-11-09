@@ -14,7 +14,7 @@ describe('Campaign Page', () => {
 
     });
     
-    it('should validare the button is clickable' , () =>
+   /* it('should validare the button is clickable' , () =>
     {
         const  Car_Button = CampaignPage.Car_Button.isClickable();
 
@@ -27,7 +27,7 @@ describe('Campaign Page', () => {
             console.log('Button is not clickable')
         }
     });
-
+*/
     it('Get the Header Section Text', () => 
     {
         console.log(CampaignPage.CampaignHeader.getText());
