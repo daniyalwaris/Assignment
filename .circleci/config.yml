@@ -17,7 +17,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run:
+      - run: 
           name: "Install dependencies"
           command: |
             npm install
@@ -29,7 +29,7 @@ jobs:
       - run:
           name: "Run tests"
           command: |
-            npm test
+           npm test
 
     #- store_artifacts:
      #           path: allure-report/

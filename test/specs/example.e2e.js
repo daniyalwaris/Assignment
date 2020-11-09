@@ -1,4 +1,3 @@
-
 const CampaignPage = require('../pageobjects/Campaign.page');
 
 before(function (){
@@ -14,11 +13,11 @@ describe('Campaign Page', () => {
 
     });
     
-   /* it('should validare the button is clickable' , () =>
+    it('should validare the button is clickable' , () =>
     {
-        const  Car_Button = CampaignPage.Car_Button.isClickable();
+        const  Car_Button = CampaignPage.CarButtonObject.isClickable();
 
-        if (Car_Button == true)
+        if (Car_Button)
         {
             console.log('Button is clickable');
         }
@@ -27,7 +26,7 @@ describe('Campaign Page', () => {
             console.log('Button is not clickable')
         }
     });
-*/
+
     it('Get the Header Section Text', () => 
     {
         console.log(CampaignPage.CampaignHeader.getText());
