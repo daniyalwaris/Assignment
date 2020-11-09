@@ -31,5 +31,5 @@ jobs:
           command: |
           npx wdio wdio.conf.js
 
-    - store_artifacts:
-                path: allure-report/
+    #- store_artifacts:
+     #           path: allure-report/
