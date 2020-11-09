@@ -1,7 +1,11 @@
 
 FROM  node:15
 
-WORKDIR  /src/app
+ADD  . /app
+
+WORKDIR  /app
 COPY  . .
+
+RUN npm install -g
 
 CMD   npx wdio wdio.conf.js

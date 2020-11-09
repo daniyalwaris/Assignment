@@ -1,0 +1,27 @@
+app_built:
+      image: registry/repository/app:${VERSION}
+      ports:
+        - "9090:9090"
+      environment:
+        - NODE_ENV="production"
+    
+    chrome_standalone:
+      image: selenium/standalone-chrome:2.48.2
+      volumes:
+      - /dev/shm:/dev/shm
+      ports:
+      - 4444:4444
+      links:
+      - app_built
+    
+    app_ft:
+      build: .
+      dockerfile: Dockerfile.build
+      command: bash -c "npm install && npm run ft"
+      volumes:
+      - .:/app:rw
+      links:
+      - chrome_standalone
+      - app_built
+      environment:
+      - NODE_ENV=docker
